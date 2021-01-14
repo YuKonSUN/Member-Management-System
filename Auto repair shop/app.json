@@ -1,0 +1,55 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/category/category",
+    "pages/good_list/good_list",
+    "pages/goods_detail/goods_detail",
+    "pages/cart/cart",
+    "pages/collect/collect", 
+    "pages/order/order",
+    "pages/search/search",
+    "pages/user/user",
+    "pages/feedback/feedback",
+    "pages/login/login",
+    "pages/auth/auth",
+    "pages/pay/pay",
+    "pages/address-add/index",
+    "pages/select-address/index"  
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#eb4450", 
+    "navigationBarTitleText": "汽修店的服务中心", 
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#000000",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icons/shouye_unselected.png",
+      "selectedIconPath": "icons/shouye_selected.png"
+    },
+    {
+      "pagePath": "pages/category/category",
+      "text": "分类",
+      "iconPath": "icons/fenlei_unselected.png",
+      "selectedIconPath": "icons/fenlei_selected.png"
+    },
+    {
+      "pagePath": "pages/cart/cart",
+      "text": "购物车",
+      "iconPath": "icons/gowuche_unselected.png",
+      "selectedIconPath": "icons/gouwuche_selected.png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "我的",
+      "iconPath": "icons/wode_unselected.png",
+      "selectedIconPath": "icons/wode_selected.png"
+    }
+  ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
